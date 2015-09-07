@@ -1,9 +1,10 @@
 {
   "name": "angular_github",
   "version": "0.0.0",
-  "homepage": "https://github.com/Kyvyas/Sinatra_testing",
+  "homepage": "",
   "authors": [
-    "Katya-yani Vyas <katyayani.vyas@gmail.com>"
+    "Katya-yani Vyas <katyayani.vyas@gmail.com>",
+    "Lewis Jones <ljones140@gmail.com>"
   ],
   "license": "MIT",
   "ignore": [
@@ -18,5 +19,9 @@
     "angular-resource": "~1.4.5",
     "bootstrap": "~3.3.5",
     "jquery": "~2.1.4"
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.4.5",
+    "angular-route": "~1.4.5"
   }
 }
