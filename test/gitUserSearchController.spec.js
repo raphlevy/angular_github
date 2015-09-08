@@ -21,7 +21,7 @@ describe('GitUserSearchController', function() {
       .when("GET", "https://api.github.com/search/users?access_token="
         + githubToken +'&q=hello')
       .respond(
-        { items: items}
+        { items: items }
         );
     }));
 
