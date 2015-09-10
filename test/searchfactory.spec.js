@@ -11,8 +11,7 @@ describe('factory: Search', function() {
   beforeEach(inject(function($httpBackend) {
     httpBackend = $httpBackend
     httpBackend
-    .expectGET("https://api.github.com/search/users?access_token="
-      + githubToken +'&q=hello')
+    .expectGET("https://api.github.com/search/users?q=hello")
     .respond(
       { items: items }
       );
